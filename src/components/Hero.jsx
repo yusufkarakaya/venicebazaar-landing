@@ -3,9 +3,9 @@ import React, { Component } from "react";
 class Hero extends Component {
   render() {
     return (
-      <div className="flex pl-64 pr-64">
+      <div className="flex lg:pl-64 lg:pr-64 justify-center sm:pt-14 md:pt-14 lg:pt-1">
         <div className="w-2/4	flex justify-center flex-col">
-          <h1 className="text-8xl	pb-5 font-semibold ">
+          <h1 className="text-4xl sm:text-4xl md:text-6xl lg:text-6xl 2xl:text-8xl pb-5 font-semibold ">
             Fashion as, unique as,
             <br /> you are.
           </h1>
@@ -21,7 +21,7 @@ class Hero extends Component {
             Discover the products
           </button>
         </div>
-        <div className="w-2/4	flex justify-center items-center flex-col">
+        <div className="w-2/4	lg:flex justify-center items-center flex-col hidden ">
           <img className="max-w-[45%] w-auto" src="/fashion.png" alt="hat" />
         </div>
       </div>
