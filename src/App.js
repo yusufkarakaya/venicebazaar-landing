@@ -1,5 +1,8 @@
 import { Component } from "react";
 import Header from "./components/Header";
+import Benefits from "./components/Benefits";
+import Testimonial from "./components/Testimonial";
+import Footer from "./components/Footer";
 import "./App.css";
 
 class App extends Component {
@@ -7,7 +10,9 @@ class App extends Component {
     return (
       <div>
         <Header />
-        <h1>App Component</h1>
+        <Benefits />
+        <Testimonial />
+        <Footer />
       </div>
     );
   }

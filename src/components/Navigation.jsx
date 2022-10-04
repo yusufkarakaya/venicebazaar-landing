@@ -4,7 +4,7 @@ class Navigation extends Component {
   render() {
     return (
       <div className="justify-center bg-[#8a2be2] mb-14 md:justify-center md:pl-1 md:pr-1 sm:justify-center sm:pl-12 sm:pr-12 lg:pl-64 lg:pr-64">
-        <div className="flex-col flex justify-between items-center p-6 lg:flex-row md:flex-row">
+        <div className="flex-col flex justify-between items-center pt-6 pb-6 lg:flex-row md:flex-row">
           <img src="/logo.png" alt="logo" />
           <div>
             <button
