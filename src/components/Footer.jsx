@@ -3,7 +3,7 @@ import React, { Component } from "react";
 class Footer extends Component {
   render() {
     return (
-      <div className="bg-white dark:bg-gray-900">
+      <div className="bg-whit dark:bg-[#8a2be2]">
         <footer className="lg:pl-14 lg:pr-14 lg:pt-24 lg:pb-14 pl-14 pr-14 pt-24 pb-14 flex-col lg:flex-row">
           <div className="md:flex md:justify-between flex-col lg:flex-row">
             <div className="mb-6 md:mb-0">
@@ -18,7 +18,7 @@ class Footer extends Component {
                 <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">
                   Follow us
                 </h2>
-                <ul className="text-gray-600 dark:text-gray-400">
+                <ul className=" text-white">
                   <li className="mb-4">
                     <a
                       target="blank"
@@ -31,10 +31,10 @@ class Footer extends Component {
                 </ul>
               </div>
               <div>
-                <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">
+                <h2 className="mb-6 text-sm font-semibold text-white uppercase dark:text-white">
                   Legal
                 </h2>
-                <ul className="text-gray-600 dark:text-gray-400">
+                <ul className="text-white">
                   <li className="mb-4">
                     <a href="#" className="hover:underline">
                       Privacy Policy
@@ -53,8 +53,8 @@ class Footer extends Component {
             <div className="flex-grow border-t border-gray-400"></div>
           </div>
           <div className="sm:flex sm:items-center sm:justify-between">
-            <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">
-              © 2022{" "}
+            <span className="text-sm text-white sm:text-center">
+              © 2022
               <a href="#" className="hover:underline">
                 Mukay™
               </a>
@@ -67,7 +67,7 @@ class Footer extends Component {
                 className="text-gray-500 hover:text-gray-900 dark:hover:text-white"
               >
                 <svg
-                  className="w-5 h-5"
+                  className="w-5 h-5 text-white"
                   fill="currentColor"
                   viewBox="0 0 24 24"
                   aria-hidden="true"
