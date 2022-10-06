@@ -13,8 +13,7 @@ class Benefits extends Component {
               HandCrafted
             </h5>
             <p className="text-center">
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
+              Beautifully crafted by hand in our own workshop.
             </p>
           </div>
         </div>
@@ -28,8 +27,9 @@ class Benefits extends Component {
               Unique
             </h5>
             <p className="text-center mb-4">
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
+              Your combination of creativity, passion and intuition creates
+              something remarkable: A unique idea that's just right for your
+              business.
             </p>
           </div>
         </div>
@@ -43,8 +43,8 @@ class Benefits extends Component {
               Fashion
             </h5>
             <p className="text-center ">
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
+              If you are looking for a stylish, comfortable lightweight summer
+              dress, this one is for you.
             </p>
           </div>
         </div>
