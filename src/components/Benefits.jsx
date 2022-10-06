@@ -3,7 +3,7 @@ import React, { Component } from "react";
 class Benefits extends Component {
   render() {
     return (
-      <div className="flex justify-center gap-32 bg-[#f7f7f7]	p-40	">
+      <div className="flex justify-center gap-32 bg-[#f7f7f7]	p-40 flex-col sm:flex-col md:flex-col lg:flex-row	">
         <div className="flex justify-center hover:text-white">
           <div className="block p-6 shadow-lg bg-white max-w-sm transition ease-in-out hover:-translate-y-1 hover:scale-105 hover:bg-indigo-500 duration-300 hover:text-white">
             <div className="text-center p-6">
