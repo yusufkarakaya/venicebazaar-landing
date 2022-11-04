@@ -18,7 +18,7 @@ class Hero extends Component {
             type="button"
             className="hover:transition-all duration-500 focus:outline-none text-white bg-red-100 hover:bg-purple-800 focus:ring-4 focus:ring-purple-300 font-medium  text-sm px-5 py-2.5 mb-2 dark:bg-[#EC368D] dark:hover:bg-purple-700 dark:focus:ring-purple-900 w-52	"
           >
-            <a target="blank" href="https://www.instagram.com/thevenicebazaar">
+            <a target="blank" href="https://www.etsy.com/shop/TheVeniceBazaar">
               Discover the products
             </a>
           </button>
